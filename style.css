@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+    color: white;
+}
+
+#count {
+    text-align: center;
+    font-size: 5rem; 
+    color: red;
+    margin-bottom: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 6px;
+    border: none;
+    background-color: rgb(108, 77, 232);
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.button:hover {
+    background-color: rgb(32, 32, 122);
+}
